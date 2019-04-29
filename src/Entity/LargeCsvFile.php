@@ -13,17 +13,17 @@ class LargeCsvFile implements CsvFileInterface
     /**
      * @var resource
      */
-    protected $file;
+    private $file;
 
     /**
      * @var string
      */
-    protected $fileName;
+    private $fileName;
 
     /**
      * @var string[]
      */
-    protected $delimiter;
+    private $delimiter;
 
     /**
      * CsvLargeFile constructor.
